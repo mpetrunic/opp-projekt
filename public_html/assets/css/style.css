@@ -1,0 +1,163 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.container {
+    min-height: 100%;
+    position: relative;
+}
+.content {
+    padding-bottom: 120px;
+}
+.footer {
+    width: 97.5%;
+    height: 110px;
+    position: absolute;
+    bottom: 0px;
+    background-color: #101010;
+    padding: 20px;
+}
+footer p {
+    margin-top: 3px;
+}
+#logo {
+    vertical-align: -22px;
+}
+#footer-links {
+    text-align: right;
+}
+.jumbotron {
+    background-image: url("/assets/img/jumbotron_background.png");
+    background-repeat: no-repeat;
+    color: #ffffff;
+}
+
+.sliding_book{
+    margin: 10px;
+}
+.margin-top-05 { margin-top: 0.5em; }
+.margin-top-10 { margin-top: 1.0em; }
+.margin-top-15 { margin-top: 1.5em; }
+.margin-top-20 { margin-top: 2.0em; }
+.margin-top-25 { margin-top: 2.5em; }
+.margin-top-30 { margin-top: 3.0em; }
+.margin-bot-05 { margin-bottom: 0.5em; }
+.margin-bot-10 { margin-bottom: 1.0em; }
+.margin-bot-15 { margin-bottom: 1.5em; }
+.margin-bot-20 { margin-bottom: 2.0em; }
+.margin-bot-25 { margin-bottom: 2.5em; }
+.margin-bot-30 { margin-bottom: 3.0em; }
+
+.detailBox {
+    width:320px;
+    border:1px solid #bbb;
+    margin:50px;
+}
+.titleBox {
+    background-color:#fdfdfd;
+    padding:10px;
+}
+.titleBox label{
+    color:#444;
+    margin:0;
+    display:inline-block;
+}
+
+.commentBox {
+    padding:10px;
+    border-top:1px dotted #bbb;
+}
+.commentBox .form-group:first-child, .actionBox .form-group:first-child {
+    width:80%;
+}
+.commentBox .form-group:nth-child(2), .actionBox .form-group:nth-child(2) {
+    width:18%;
+}
+.actionBox .form-group * {
+    width:100%;
+}
+.taskDescription {
+    margin-top:10px 0;
+}
+.commentList {
+    padding:0;
+    list-style:none;
+    max-height:200px;
+    overflow:auto;
+}
+.commentList li {
+    margin:0;
+    margin-top:10px;
+}
+.commentList li > div {
+    display:table-cell;
+}
+.commenterImage {
+    width:40px;
+    margin-right:5px;
+    height:100%;
+    float:left;
+}
+.commenterImage img {
+    width:100%;
+    border-radius:50%;
+}
+.commentText p {
+    margin:0;
+}
+.sub-text {
+    color:#aaa;
+    font-family:verdana;
+    font-size:13px;
+}
+.actionBox {
+    border-top:1px dotted #bbb;
+    padding:10px;
+}
+
+/*
+temporary class
+*/
+.blue {
+    font-size:36px;line-height:100px;margin:10px;padding:2%;position:relative;text-align:center;background-color: #3498db;
+}
+
+.sliding_book{
+
+}
+
+img.cover {
+    height: 200px;
+    width: 160px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.book_title {
+    text-align: center;
+}
+.menu {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#cover {
+    padding-left: 10px;
+    padding-right: 20px;
+    width: 250px;
+    height: auto;
+}
+#comments {
+    clear: both;
+    padding-top: 70px;
+    padding-bottom: 3em;
+}
+#title {
+    margin-bottom: 2px;
+}
+#author {
+    margin-top: 2px;
+    padding-left: 2em;
+    padding-bottom: 30px;
+    color: #585858;
+}
